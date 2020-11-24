@@ -1,0 +1,36 @@
+/* css menu */
+#menu{
+    height: 60px;
+    width: 100%;
+    background-color: #253342;
+    color: white;
+    position: fixed; 
+    border-bottom: 0.05px solid #cccccc;
+}
+
+#logo {
+    float: left;
+    line-height: 55px;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+
+
+.menu-all .menu-item {
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px;
+    
+    
+}
+.menu-all .menu-item:hover{
+    background-color:#cccccc;
+
+} 
+.menu-all{
+    padding-right: 45px;
+}

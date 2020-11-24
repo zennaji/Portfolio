@@ -1,0 +1,21 @@
+
+/* css fotos beroep */
+
+#fotossection
+{
+    height:300px;
+    width: 100%;
+    margin-bottom: 100px;    
+}
+.h1bfotos{
+    text-align: center;
+}
+#fotos
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+

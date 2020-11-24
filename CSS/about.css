@@ -1,0 +1,38 @@
+/* about opleidingcss =================*/
+
+#about_op{
+    height: 240px;
+    text-align: center;
+    width: 408px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.about1-p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+/* about Motivatie css =================*/
+#about_mo{
+    background-color: #253342;
+    height: 290px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    color: white;
+}
+.about2-p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+/* about Eigenschappen css =================*/
+#about_eig{
+    height: 410px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.about3-p{
+    padding-top: 10px;
+    font-size: 25px;
+
+}

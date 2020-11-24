@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+#tabel{
+    
+    height: 800px;
+    text-align: center;
+    margin-top: 30px;
+}
+#tabel-data{
+    
+    background-color:#253342;
+    margin: 0 auto;
+    
+    color:  white;
+    border: 2px solid#f2f4f4;
+    border-radius: 5px;
+    border-spacing: 0px;
+    
+    height: 600px;
+    width: 700px;
+    
+}
+.tabel-t{
+    background-color:#253342;
+    border: 5px solid #253342;
+    border-radius: 20px;
+    width: 39%;
+    height: 630px;
+    margin-left: 30%;
+    padding-top: 11px;
+    margin-top: 50px;
+    
+    
+}
+td{
+    border: 2px solid  #f2f4f4;
+    
+}
+td{
+    font-size: 30px;
+}

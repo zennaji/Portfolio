@@ -1,0 +1,42 @@
+
+
+
+/* Lijst css =================*/
+#lijst_kv{
+    background-color: #253342;
+    height:680px ;
+    text-align: center;
+    color:white;
+    margin-top: 65px;
+}
+.row{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.col-2{
+    
+    border: 1px solid#cccccc;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 10px;
+    width: 35%;
+    margin-right: 1%;
+    font-size: 30px;
+    margin-top: 20px;
+    float: left
+}
+.col-left{
+    margin-left:14.5%;
+}
+.col-2 img{
+    border: 1px #cccccc solid;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px black;
+    width: 100%;
+    max-width: 450px;
+}
+.tut-header{
+    font-size: 35px;
+    font-weight: bold;
+}
