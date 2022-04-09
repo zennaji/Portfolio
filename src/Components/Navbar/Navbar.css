@@ -1,0 +1,44 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: aqua; */
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* background-color: rgb(0, 255, 157); */
+    justify-content: center;
+    font-weight: 400;
+}
+n-list{
+    flex: 10;
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.n-li{
+   list-style: none;
+}
+.n-li:hover{
+    cursor: pointer;
+    color: var(--mainColor);
+}
+.n-button:hover{
+    
+}

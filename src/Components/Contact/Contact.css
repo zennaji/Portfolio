@@ -1,0 +1,83 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 70vh;
+    margin-top: 4rem;
+      /* scroll */
+  padding-top: 3rem;
+  /* background-color: var(--blueCard); */
+ 
+}
+
+.c-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.c-text> :nth-child(1){
+    font-size: 2.5rem;
+    color: var(--mainColor);
+    font-weight: bold;
+    /* margin-bottom: 1rem; */
+}
+.c-text> :nth-child(2){
+    font-size: 20px;
+    color: var(--gray);
+    font-weight: bold;
+    margin-bottom: 1rem;
+ 
+}
+
+
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.c-right .user{
+    width: 25rem;
+    height: 1.5rem;
+    padding: 0.3em;
+    outline: none;
+    border: 2px solid var(--mainColor);
+    border-radius: 5px;
+    font-size: 15px;   
+
+    background: rgba(255, 255, 255, 0.26);
+    /* border: 5px solid var(--blueCard); */
+ }
+
+textarea{
+    height: 4rem!important;
+}
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+}   
