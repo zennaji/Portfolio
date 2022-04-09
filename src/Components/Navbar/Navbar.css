@@ -42,3 +42,10 @@ n-list{
 .n-button:hover{
     
 }
+
+/* making responsive */
+@media screen and (max-width: 480px){
+    .n-button,.n-list{
+        display: none;
+    }
+}

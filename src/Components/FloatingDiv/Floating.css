@@ -6,14 +6,14 @@
     border-radius: 17px;
     align-items: center;
     padding: 0px 20px 0px 0px;
-    height: 3.5rem;
+    height: 3rem;
 }
 .floatingdiv>img{
-    transform: scale(0.4);
+    transform: scale(0.3);
 }
 .floatingdiv>span{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 .blur{
     position: absolute;

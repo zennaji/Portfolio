@@ -1,8 +1,8 @@
 .services{
-    padding: 0 3rem 0 3rem;
+    padding: 6.5rem 3rem 0 3rem;
     display: flex;
     height: 90vh;
-    margin-bottom: 13rem;
+    margin-bottom: 5rem;
     margin-top: 9rem;
 }
 .s-text{
@@ -42,5 +42,5 @@
 }
 .s-blur2{
     top: 14rem;
-    left: 8rem;
+    left: 19rem;
 }

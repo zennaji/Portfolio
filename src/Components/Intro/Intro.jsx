@@ -19,7 +19,7 @@ import { motion } from 'framer-motion';
 
 const Intro = () => {
 
-    const transition ={duration: 2, type: 'spring'}
+    const transition ={duration: 1.5, type: 'spring', bounce: 0.1}
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -44,29 +44,29 @@ const Intro = () => {
         </div>
         <div className="i-right">
             <motion.img
+            initial={{x: "-100vw"}}
+            // animate={{x:0}}
+            whileInView={{x:0 }}
+            transition={transition}
+
            
              src={E} alt="" /> 
-            <img src={Z} alt="" /> 
-            <img src={boy} alt="" /> 
-            <motion.div
-             initial={{left: '-50px'}}
-             whileInView={{left: '-10%' }}
+            <motion.img
+             initial={{x: "50vw"}}
+             whileInView={{x:0 }}
              transition={transition}
-        
-            style={{top: '10%', left:'50%'}}>
-                <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
-            </motion.div>
-            <motion.div
-             initial={{left: '-5px'}}
-             whileInView={{left: '65%' }}
-             transition={transition}
+            src={Z} alt="" /> 
 
-            style={{top: '18rem', left:'0rem'}}>
+            <img src={boy} alt="" /> 
+            {/* <div style={{top: '35%', left:'70%'}}>
+                <FloatingDiv image={Crown} txt1="Web" txt2="Developer" />
+            </div>
+            <div style={{top: '18rem', left:'0rem'}}>
                 <FloatingDiv image={thumbup} txt1="FrontEnd" txt2="Developer" />
-            </motion.div>
+            </div> */}
             {/* blur divs */}
             {/* <div className="blur" style={{background: "rgb(238 210 255)"}}></div> */}
-            <div className="blur" style={{background: "#C1F5FF", top:"17rem", width:"21rem", height:"11rem", left:"-9rem"}}></div>
+            <div className="blur" style={{background: "#C1F5FF", top:"17rem", width:"21rem", height:"11rem", left:"10rem"}}></div>
         </div>
     </div>
   )

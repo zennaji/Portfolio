@@ -12,7 +12,7 @@ import {useContext} from "react";
 import { motion } from 'framer-motion';
 
 const Services = () => {
-  const transition ={duration: 1, type: 'spring'}
+  const transition ={duration: 2, type: 'spring'}
 
   const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -35,11 +35,11 @@ const Services = () => {
           {/* Right side */}
           <div className="cards">
               <motion.div 
-              // initial={{left: '14rem'}}
-              // whileInView={{left: '25%' }}
+              initial={{left:"-15rem"}}
+              whileInView={{left: '8rem' }}
               transition={transition}
               
-              style={{left:"-4rem", top:"12rem"}}>
+              style={{left:"2rem", top:"12rem"}}>
                   <Card
                     emoji = {HeartEmoji}
                     heading = {'Design'}
@@ -48,11 +48,11 @@ const Services = () => {
               </motion.div>
               {/* second card */}
               <motion.div 
-              // initial={{ top: "19rem", left: "25rem" }}
-              // whileInView={{left: "12rem" }}
+              // initial={{ top: "-5rem",  }}
+              whileInView={{top: "0rem" }}
               transition={transition}
               
-              style={{left:"14rem"}}>
+              style={{left:"25rem", top: "-10rem"}}>
                   <Card
                     emoji = {Glasses}
                     heading = {'Developer'}
@@ -60,17 +60,20 @@ const Services = () => {
                   />
               </motion.div>
               {/* 3rde card */}
-              <div 
+              <motion.div 
+              initial={{ left: "55rem" }}
+              whileInView={{left: "35rem"  }}
+              transition={transition}
+
               
-              
-              style={{left:"19rem",  top:"20rem"}}
+              style={{left:"20rem",  top:"20rem"}}
               >
                   <Card
                     emoji = {Humble}
                     heading = {'UI/UX'}
                     detail = {"I'am a great ui/ux designer"}
                   />
-              </div>
+              </motion.div>
               <div className="blur s-blur2" style={{background: "#ABF1FF94"}}></div>
 
           </div>

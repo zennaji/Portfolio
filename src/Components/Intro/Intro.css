@@ -30,6 +30,7 @@
     font-size: 20px;
     color: var(--gray);
      font-weight: 400;
+     width: 80%;
 
 }
 .i-button{
@@ -41,18 +42,16 @@
     margin-top: 3rem;
     display: flex;
     gap: 0rem;
-}
+ }
 
 .i-icons >*{
     transform: scale(0.5);
 }
 .i-icons >*:hover{
   cursor: pointer;
+  transform: scale(0.6);
+  
 }
-
-
-
-
 
  /* right side  */
 .i-right{
@@ -64,20 +63,62 @@
     z-index: 1;
 }
 .i-right>:nth-child(1){
-    transform: scale(0.3);
-    left: 20%;
-    top: -9%;
-}
+    
+    left: 20rem;
+    top: 3rem;
+ }
 .i-right>:nth-child(2){
-    transform: scale(0.3);
-    left: -3rem;
-    top: -5rem;
+   
+    left: -1rem;
+    top: 3rem;
 }
-
 
 
 .i-right>:nth-child(3){
-    transform: scale(0.20);
-    top: -120%;
-    left: -25%;
+    transform: scale(0.45);
+    top: -40%;
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+
+/* making responsive */
+@media screen and (max-width: 480px){
+    .intro{
+        flex-direction: column;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+
+
+
+
+    .i-name >:nth-child(1),.i-name >:nth-child(2){
+        font-size: 2rem;
+     }
+     .i-name >:nth-child(3){
+        font-size: 18px;
+
+     }
+    
+    
+    .i-icons{
+        margin-top: 0.2rem;
+        transform: scale(0.9);
+        display: flex;
+        gap: 0rem;
+    }
+    
+    .i-icons >*{
+        transform: scale(0.5);
+    }
+
 }
