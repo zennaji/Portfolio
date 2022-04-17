@@ -92,10 +92,14 @@
 @media screen and (max-width: 480px){
     .intro{
         flex-direction: column;
+        height: 50rem;
+        gap: 7rem;
     }
     .i-right{
-        transform: scale(0.8);
-        left: -3rem;
+        transform: scale(0.6);
+        left: -9.6rem;
+        top: -15rem;
+
     }
 
 
@@ -119,6 +123,40 @@
     
     .i-icons >*{
         transform: scale(0.5);
+    }
+
+
+
+        /* right side  */
+    .i-right{
+        flex: 1;
+        position: relative;
+    }
+    .i-right >*{
+        position: absolute;
+        z-index: 1;
+    }
+    .i-right>:nth-child(1){
+        opacity: 0.15;
+        left: 20rem;
+        top: 16rem;
+    }
+    .i-right>:nth-child(2){
+        opacity: 0.15;
+        left: -1rem;
+        top: 16rem;
+    }
+
+
+    .i-right>:nth-child(3){
+        transform: scale(0.45);
+        top: -40%;
+        user-drag: none;  
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
 
 }

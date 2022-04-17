@@ -10,6 +10,8 @@ import {themeContext} from "./../../Context";
 import {useContext} from "react";
 
 import { motion } from 'framer-motion';
+// import Radium, { StyleRoot } from 'radium';
+
 
 const Services = () => {
   const transition ={duration: 2, type: 'spring'}
@@ -43,11 +45,11 @@ const Services = () => {
                   <Card
                     emoji = {HeartEmoji}
                     heading = {'Design'}
-                    detail = {"Adobe XD, PS, , InVision"}
+                    detail = {"Adobe XD, PS, , InVision, Pr"}
                   />
               </motion.div>
               {/* second card */}
-              <motion.div 
+               <motion.div 
               // initial={{ top: "-5rem",  }}
               whileInView={{top: "0rem" }}
               transition={transition}
@@ -59,14 +61,14 @@ const Services = () => {
                     detail = {"HTML, CSS, JS, Flutter, php, React, Symfony"}
                   />
               </motion.div>
-              {/* 3rde card */}
+               {/* 3rde card */}
               <motion.div 
               initial={{ left: "55rem" }}
               whileInView={{left: "35rem"  }}
               transition={transition}
 
               
-              style={{left:"20rem",  top:"20rem"}}
+              style={{left:"20rem",  top:"20rem" }}
               >
                   <Card
                     emoji = {Humble}

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect, Component } from 'react'
 import "./Portfolio.css"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import HealthOne from '../../img/HealthOne.jpg'
@@ -6,9 +6,34 @@ import 'swiper/css'
 
 import {themeContext} from "./../../Context";
 import {useContext} from "react";
+// backend
+import axios from 'axios'
 
 const Portfolio = () => {
-    const projects = [
+        const [projectList, setprojectList] = useState([]);
+        // ComponentDidmount()
+        useEffect(() => {
+            axios.get('http://localhost:3001/api/get')
+            .then(res => {
+                setprojectList(res.data)
+                console.log(res.data)
+                
+            })
+            // .catch(err => console.log(err))
+        }, [])
+
+
+
+
+
+        // const getProjects = () => {
+        //     axios.get('http://localhost:3001/projects',)
+        //     .then((res) => res.data)
+        //     .then((res => setprojectList(res)));
+        // }
+
+
+    const projectList2 = [
         {
         id: "1",
         name: "HealthOne",
@@ -62,13 +87,35 @@ const Portfolio = () => {
         <span>hier zijn een paar projecten waar <br /> ik onlangs aan heb gewerkt </span>
         {/* Slider */}
         <Swiper
-        spaceBetween={1}
+       
+
+        spaceBetween={60}
         slidesPerView={4}
         grabCursor={true}
+
+        breakpoints={{
+            // when window width is <= 480px
+            360: {
+              width: 360,
+              slidesPerView: 1,
+            },
+           
+          }}
+
         className="portfolio-slider"
         >
-
-            {projects.map((project, index) => {
+            {/* FETCHING FROM DATABASE  */}
+            {/* {projectList.map((project, index) => {
+                return(
+                     <SwiperSlide key={index}>
+                        <a href={project.link}><img src={HealthOne} alt="" /></a>
+                        <h3>{project.name}</h3>
+                        <p className='p-description'>{project.discription}</p>
+                    </SwiperSlide>
+                )
+            })} */}
+                {/* Fetching from array above */}
+            {projectList2.map((project, index) => {
                 return(
                      <SwiperSlide key={index}>
                         <a href={project.link}><img src={HealthOne} alt="" /></a>
@@ -77,6 +124,7 @@ const Portfolio = () => {
                     </SwiperSlide>
                 )
             })}
+
 
         </Swiper>
     </div>

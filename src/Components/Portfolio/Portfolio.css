@@ -50,3 +50,31 @@
     font-size: 18px;
     width: 85%;
  }
+
+ /* makin responsive */
+
+ @media screen and (max-width: 480px){
+    .portfolio{
+        height: 100vh;
+        margin-bottom: 6rem;
+    }
+    .portfolio img{
+        width: 19rem;
+        filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.103));
+        border-radius: 4px;
+    }
+    .swiper-container {
+        width: 360px;
+      }
+      .portfolio img{
+        width:16rem;
+    }
+    .p-description{
+        width: 87%;
+    }
+    .portfolio{
+     }
+    
+ }
+
+ 
