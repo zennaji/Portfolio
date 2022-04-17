@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f54e2d45.css",
-    "main.js": "/Portfolio/static/js/main.eec9da63.js",
+    "main.js": "/Portfolio/static/js/main.2fc4fb6c.js",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.d65f25a708f2647ee0b5.pdf",
     "static/media/boy1.png": "/Portfolio/static/media/boy1.311e8a687b56a1043aa3.png",
     "static/media/HealthOne.jpg": "/Portfolio/static/media/HealthOne.e35558e6f2aa40557fe1.jpg",
@@ -14,10 +14,10 @@
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
     "main.f54e2d45.css.map": "/Portfolio/static/css/main.f54e2d45.css.map",
-    "main.eec9da63.js.map": "/Portfolio/static/js/main.eec9da63.js.map"
+    "main.2fc4fb6c.js.map": "/Portfolio/static/js/main.2fc4fb6c.js.map"
   },
   "entrypoints": [
     "static/css/main.f54e2d45.css",
-    "static/js/main.eec9da63.js"
+    "static/js/main.2fc4fb6c.js"
   ]
 }
