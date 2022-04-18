@@ -2,6 +2,7 @@ import React, {useState, useEffect, Component } from 'react'
 import "./Portfolio.css"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import HealthOne from '../../img/HealthOne.jpg'
+import AppleMiniStore from '../../img/Apple-Mini-Store.jpg'
 import 'swiper/css'
 
 import {themeContext} from "./../../Context";
@@ -37,15 +38,15 @@ const Portfolio = () => {
         {
         id: "1",
         name: "HealthOne",
-        img: "HealthOne",
+        img: HealthOne,
         description: "Ik heb HTML, CSS, JS en Bootstrap gebruikt om de frontend van deze website te ontwikkelen, in de backend gebruikte ik PHP MVC-ontwerppatroon en MySQL, het is een fitnesswebsite waarmee je alle apparaten kunt zien die we hebben. Het stelt je ook in staat om een account aan te maken en een lidmaatschap te kiezen",
         link: "https://github.com/"
 
         },
         {
         id: "2",
-        name: "HealthOne",
-        img: "HealthOne",
+        name: "Apple-Mini-Store-",
+        img: AppleMiniStore,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
@@ -53,7 +54,7 @@ const Portfolio = () => {
         {
         id: "3",
         name: "HealthOne",
-        img: "HealthOne",
+        img: HealthOne,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
@@ -61,7 +62,7 @@ const Portfolio = () => {
         {
         id: "4",
         name: "HealthOne",
-        img: "HealthOne",
+        img: HealthOne,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
@@ -69,7 +70,7 @@ const Portfolio = () => {
         {
         id: "5",
         name: "HealthOne",
-        img: "HealthOne",
+        img: HealthOne,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
@@ -118,7 +119,7 @@ const Portfolio = () => {
             {projectList2.map((project, index) => {
                 return(
                      <SwiperSlide key={index}>
-                        <a href={project.link}><img src={HealthOne} alt="" /></a>
+                        <a href={project.link}><img src={project.img} alt="" /></a>
                         <h3>{project.name}</h3>
                         <p className='p-description'>{project.description}</p>
                     </SwiperSlide>
