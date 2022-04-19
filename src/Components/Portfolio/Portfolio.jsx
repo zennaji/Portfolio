@@ -3,6 +3,12 @@ import "./Portfolio.css"
 import {Swiper, SwiperSlide} from 'swiper/react';
 import HealthOne from '../../img/HealthOne.jpg'
 import AppleMiniStore from '../../img/Apple-Mini-Store.jpg'
+import AdidasMiniStore from '../../img/Adidas-Mini-Store.jpg'
+import SpS from '../../img/SPS.jpg'
+import GiveAway from '../../img/GiveAway.jpg'
+import CardGame from '../../img/CardGame.jpg'
+import TicTacToe from '../../img/TicTacToe.jpg'
+
 import 'swiper/css'
 
 import {themeContext} from "./../../Context";
@@ -53,24 +59,40 @@ const Portfolio = () => {
         },
         {
         id: "3",
-        name: "HealthOne",
-        img: HealthOne,
+        name: "Adidas-Mini-Store",
+        img: AdidasMiniStore,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
         },
         {
         id: "4",
-        name: "HealthOne",
-        img: HealthOne,
+        name: "Steen-Papier-Schaar",
+        img: SpS,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
         },
         {
         id: "5",
-        name: "HealthOne",
-        img: HealthOne,
+        name: "GiveAway Website",	
+        img: GiveAway,
+        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        link: "https://github.com/"
+
+        },
+        {
+        id: "6",
+        name: "Card Game",	
+        img: CardGame,
+        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        link: "https://github.com/"
+
+        },
+        {
+        id: "7",
+        name: "Tic Tac Toe Game",	
+        img: TicTacToe,
         description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
         link: "https://github.com/"
 
