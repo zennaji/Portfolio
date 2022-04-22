@@ -22,15 +22,15 @@ const Services = () => {
     <div className="services" id='Services'>
         {/* left side */}
         <div className="s-text">
-            <span style={{color: darkMode ? "#fff" : "",}}>KENNIS & </span>
-            <span>VAARDIGHEDEN </span>
+            <span style={{color: darkMode ? "#fff" : "",}}>SKILLS & </span>
+            <span>KNOWLEDGE </span>
             <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                omnis, laudantium corrupti dolor, dolores minus sit veniam?
+              I’m familiar with a variety of modern web technologies and <br />
+              programming languages and I’m always looking for new <br />
             </span>
             <a href={Resume} download>
 
-            <button className="button s-button">CV downloaden</button>
+            <button className="button s-button">Download CV</button>
             </a>
             {/* <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div> */}
         </div>
@@ -44,8 +44,8 @@ const Services = () => {
               style={{left:"2rem", top:"12rem"}}>
                   <Card
                     emoji = {HeartEmoji}
-                    heading = {'Design'}
-                    detail = {"Adobe XD, PS, , InVision, Pr, figma, Sketch"}
+                    heading = {'Front-End'}
+                    detail = {"HTML, (S)CSS, JS, Dart, Flutter, TS and React"}
                   />
               </motion.div>
               {/* second card */}
@@ -57,8 +57,8 @@ const Services = () => {
               style={{left:"25rem", top: "-10rem"}}>
                   <Card
                     emoji = {Glasses}
-                    heading = {'Developer'}
-                    detail = {"HTML, CSS, JS, Flutter, php, React, Symfony"}
+                    heading = {'Back-End'}
+                    detail = {"PHP, MySQL, Symfony, NodeJS, Express and mongoDB"}
                   />
               </motion.div>
                {/* 3rde card */}
@@ -73,7 +73,7 @@ const Services = () => {
                   <Card
                     emoji = {Humble}
                     heading = {'UI/UX'}
-                    detail = {"I'am a great ui/ux designer, I can design for you"}
+                    detail = {"Adobe: Photoshop, illustrator, XDesign, Premier pro, figma"}
                   />
               </motion.div>
               <div className="blur s-blur2" style={{background: "#ABF1FF94"}}></div>

@@ -20,3 +20,26 @@
     display: flex;
     gap: 1rem;
 }
+/* making responsive */
+@media screen and (max-width: 480px){
+    .footer{
+        height: 17rem;
+        gap: 7rem;
+    }
+   .f-content{
+        margin-top: 7rem;
+        gap: 0rem;
+    }
+    .f-content span{
+        font-size: 14px;
+    }
+     
+    .f-icons{
+         transform: scale(0.9);
+        display: flex;
+        gap: 0rem;
+     }
+    .f-icons >*{
+        transform: scale(0.5);
+    }
+}

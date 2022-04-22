@@ -17,7 +17,7 @@ function Navbar() {
                         <li className='n-li'>Home</li>
                     </Link>
                     <Link spy={true} to='Services' smooth={true} >
-                        <li className='n-li'>Kennis</li>
+                        <li className='n-li'>Services</li>
                     </Link>
                     <Link spy={true} to='Portfolio' smooth={true} >
                         <li className='n-li'>Portfolio</li>

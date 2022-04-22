@@ -64,13 +64,27 @@
 }
 .i-right>:nth-child(1){
     
-    left: 20rem;
+    left: 19.8rem;
     top: 3rem;
- }
+    opacity: 0.05; 
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 .i-right>:nth-child(2){
    
     left: -1rem;
     top: 3rem;
+    opacity: 0.05; 
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 
@@ -110,7 +124,8 @@
      }
      .i-name >:nth-child(3){
         font-size: 18px;
-
+        width: 90%;
+ 
      }
     
     
@@ -137,14 +152,14 @@
         z-index: 1;
     }
     .i-right>:nth-child(1){
-        opacity: 0.15;
+        opacity: 0.05;
         left: 20rem;
-        top: 16rem;
+        top: 11rem;
     }
     .i-right>:nth-child(2){
-        opacity: 0.15;
+        opacity: 0.05;
         left: -1rem;
-        top: 16rem;
+        top: 11rem;
     }
 
 

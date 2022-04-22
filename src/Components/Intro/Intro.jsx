@@ -31,11 +31,13 @@ const Intro = () => {
                 <span style={{color: darkMode ? "#fff" : "",}}>Hi! I am </span>
                 <span>Zakaria Ennaji </span>
                 <span>
-                    Frontend developer with high passion for web development, producting the Quality work.
-                    I love to create beautiful and functional web applications.
+                    Software developer with high passion for web development, producting the Quality work. 
+                    enthusiastic and work decisively <br />
+                    I am always very critical of myself and I always want to bring <br />
+                    out the best in me and show it to the rest.
                 </span>
             </div>
-            <button className="button i-button">Hire me</button>
+            <a href="mailto:zakaria.ennaji@outlook.com"><button className="button i-button"> Hire me </button></a>
             <div className="i-icons">
                 <a href="https://github.com/zennaji"> <img src={Github} alt="" /></a>
                 <a href="https://www.instagram.com/zakaria_ennaji_/"> <img src={Instagram} alt="" /></a>
@@ -53,7 +55,8 @@ const Intro = () => {
              src={E} alt="" /> 
             <motion.img
              initial={{x: "50vw"}}
-             whileInView={{x:0 }}
+             whileInView={{x:0,}}
+             
              transition={transition}
             src={Z} alt="" /> 
 
@@ -66,7 +69,7 @@ const Intro = () => {
             </div> */}
             {/* blur divs */}
             {/* <div className="blur" style={{background: "rgb(238 210 255)"}}></div> */}
-            <div className="blur" style={{background: "#C1F5FF", top:"17rem", width:"21rem", height:"11rem", left:"10rem"}}></div>
+            {/* <div className="blur" style={{background: "#C1F5FF", top:"17rem", width:"21rem", height:"11rem", left:"10rem"}}></div> */}
         </div>
     </div>
   )

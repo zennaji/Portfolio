@@ -1,6 +1,7 @@
 import React, {useState, useEffect, Component } from 'react'
 import "./Portfolio.css"
 import {Swiper, SwiperSlide} from 'swiper/react';
+
 import HealthOne from '../../img/HealthOne.jpg'
 import AppleMiniStore from '../../img/Apple-Mini-Store.jpg'
 import AdidasMiniStore from '../../img/Adidas-Mini-Store.jpg'
@@ -45,7 +46,7 @@ const Portfolio = () => {
         id: "1",
         name: "HealthOne",
         img: HealthOne,
-        description: "Ik heb HTML, CSS, JS en Bootstrap gebruikt om de frontend van deze website te ontwikkelen, in de backend gebruikte ik PHP MVC-ontwerppatroon en MySQL, het is een fitnesswebsite waarmee je alle apparaten kunt zien die we hebben. Het stelt je ook in staat om een account aan te maken en een lidmaatschap te kiezen",
+        description: "I used HTML, CSS, JS and Bootstrap to develop the frontend of this website, it's completely responsive, in the backend I used PHP MVC design pattern and MySQL, it's a fitness website you can see all the devices we have. It also allows you to create an account and choose a membership, post a review, etc.",
         link: "https://github.com/"
 
         },
@@ -53,7 +54,7 @@ const Portfolio = () => {
         id: "2",
         name: "Apple-Mini-Store-",
         img: AppleMiniStore,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "This is a nice landing page of a mini Apple online store",
         link: "https://github.com/"
 
         },
@@ -61,7 +62,7 @@ const Portfolio = () => {
         id: "3",
         name: "Adidas-Mini-Store",
         img: AdidasMiniStore,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "This is a nice landing page of a mini Adidas store",
         link: "https://github.com/"
 
         },
@@ -69,7 +70,7 @@ const Portfolio = () => {
         id: "4",
         name: "Steen-Papier-Schaar",
         img: SpS,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "I built this game with HTML CSS and vanilla JS, This is a digital version of Rock-Paper-Scissors",
         link: "https://github.com/"
 
         },
@@ -77,7 +78,7 @@ const Portfolio = () => {
         id: "5",
         name: "GiveAway Website",	
         img: GiveAway,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "To build the client side of this project I used HTML, SCSS, Bootstrap and JavaScript,for the server side I used PHP and MySQL,it is a website that generates a random winner from the database after registering",
         link: "https://github.com/"
 
         },
@@ -85,7 +86,7 @@ const Portfolio = () => {
         id: "6",
         name: "Card Game",	
         img: CardGame,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "This is the first game I built, I used HTML, CSS and JS to program the logic and the rules",
         link: "https://github.com/"
 
         },
@@ -93,7 +94,15 @@ const Portfolio = () => {
         id: "7",
         name: "Tic Tac Toe Game",	
         img: TicTacToe,
-        description: "1lorem ipsum laudantium corrupti dolor, dolores minus sit veniam?dolores minus sit veniam?dolores minus sit veniam?",
+        description: "This is a tic-tac-toe game created with Vanilla JS",
+        link: "https://github.com/"
+
+        },
+        {
+        id: "8",
+        name: "Escape room",	
+        img: TicTacToe,
+        description: "TThis is an escape room game, you have to solve each puzzle to get to the next one, and in the end you will find a key to complete the game. it is made in HTML, CSS, AND JS",
         link: "https://github.com/"
 
         },
@@ -106,8 +115,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id='Portfolio'>
         {/* Heading */}
-        <span style={{color: darkMode ? "#fff" : "",}}>RECENTE <span>PROJECTEN</span></span>
-        <span>hier zijn een paar projecten waar <br /> ik onlangs aan heb gewerkt </span>
+        <span style={{color: darkMode ? "#fff" : "",}}>RECENT <span>PROJECTS</span></span>
+        <span>Here are a few projects I've worked on recently.</span>
         {/* Slider */}
         <Swiper
        
@@ -143,7 +152,10 @@ const Portfolio = () => {
                      <SwiperSlide key={index}>
                         <a href={project.link}><img src={project.img} alt="" /></a>
                         <h3>{project.name}</h3>
+                        {/* <button className="c-button">LEARN MORE</button> */}
+
                         <p className='p-description'>{project.description}</p>
+                        
                     </SwiperSlide>
                 )
             })}
