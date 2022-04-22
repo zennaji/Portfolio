@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f54e2d45.css",
-    "main.js": "/Portfolio/static/js/main.d0dd24f5.js",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.d65f25a708f2647ee0b5.pdf",
+    "main.css": "/Portfolio/static/css/main.8daf1d65.css",
+    "main.js": "/Portfolio/static/js/main.e4ea00a9.js",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.46b62afcaa4ba4525dcf.pdf",
     "static/media/boy1.png": "/Portfolio/static/media/boy1.311e8a687b56a1043aa3.png",
     "static/media/Adidas-Mini-Store.jpg": "/Portfolio/static/media/Adidas-Mini-Store.94a26c7416292cf38d12.jpg",
     "static/media/HealthOne.jpg": "/Portfolio/static/media/HealthOne.717081104a58997c1e4b.jpg",
@@ -19,11 +19,11 @@
     "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.f54e2d45.css.map": "/Portfolio/static/css/main.f54e2d45.css.map",
-    "main.d0dd24f5.js.map": "/Portfolio/static/js/main.d0dd24f5.js.map"
+    "main.8daf1d65.css.map": "/Portfolio/static/css/main.8daf1d65.css.map",
+    "main.e4ea00a9.js.map": "/Portfolio/static/js/main.e4ea00a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f54e2d45.css",
-    "static/js/main.d0dd24f5.js"
+    "static/css/main.8daf1d65.css",
+    "static/js/main.e4ea00a9.js"
   ]
 }
