@@ -24,10 +24,10 @@
 }
 /* Slider */
 .portfolio .swiper{
-    /* overflow: visible!important; */
+    overflow: visible!important;
+    
 }
 .portfolio-slider{
-    margin-top: 3rem;
     width: 100%;
 }
 .portfolio-slider .swiper-slide{
@@ -43,13 +43,18 @@
 }
 .portfolio h3{
     font-weight: bold;
+    text-align: center;
 }
 .p-description{
     color: var(--gray);
     font-weight: 400;
     font-size: 18px;
-    width: 85%;
+    width: 100%;
+    /* background-color: aqua; */
+     text-align: center;
+
  }
+ 
 
  /* makin responsive */
 
@@ -71,6 +76,7 @@
     }
     .p-description{
         width: 87%;
+         
     }
     .portfolio{
      }

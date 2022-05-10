@@ -1,4 +1,4 @@
-import React, {useState, useEffect, Component } from 'react'
+import React, {useState, useEffect, Component, useRef } from 'react'
 import "./Portfolio.css"
 import {Swiper, SwiperSlide} from 'swiper/react';
 
@@ -9,6 +9,7 @@ import SpS from '../../img/SPS.jpg'
 import GiveAway from '../../img/GiveAway.jpg'
 import CardGame from '../../img/CardGame.jpg'
 import TicTacToe from '../../img/TicTacToe.jpg'
+import Delicious from '../../img/Delicious.jpg'
 
 import 'swiper/css'
 
@@ -67,7 +68,15 @@ const Portfolio = () => {
 
         },
         {
-        id: "4",
+            id: "4",
+            name: "Deleciouss",	
+            img: Delicious,
+            description: "I built this website with React.js, And i used a food API. it's a website that allows you to see the recipes of a defferent food categories",
+            link: "https://github.com/"
+    
+            },
+        {
+        id: "5",
         name: "Steen-Papier-Schaar",
         img: SpS,
         description: "I built this game with HTML CSS and vanilla JS, This is a digital version of Rock-Paper-Scissors",
@@ -75,7 +84,7 @@ const Portfolio = () => {
 
         },
         {
-        id: "5",
+        id: "6",
         name: "GiveAway Website",	
         img: GiveAway,
         description: "To build the client side of this project I used HTML, SCSS, Bootstrap and JavaScript,for the server side I used PHP and MySQL,it is a website that generates a random winner from the database after registering",
@@ -83,7 +92,7 @@ const Portfolio = () => {
 
         },
         {
-        id: "6",
+        id: "7",
         name: "Card Game",	
         img: CardGame,
         description: "This is the first game I built, I used HTML, CSS and JS to program the logic and the rules",
@@ -91,27 +100,27 @@ const Portfolio = () => {
 
         },
         {
-        id: "7",
+        id: "8",
         name: "Tic Tac Toe Game",	
         img: TicTacToe,
         description: "This is a tic-tac-toe game created with Vanilla JS",
         link: "https://github.com/"
 
         },
-        {
-        id: "8",
-        name: "Escape room",	
-        img: TicTacToe,
-        description: "TThis is an escape room game, you have to solve each puzzle to get to the next one, and in the end you will find a key to complete the game. it is made in HTML, CSS, AND JS",
-        link: "https://github.com/"
-
-        },
+ 
         
     ]
 
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
+
+
+    const submitHandeler = (e) => {
+       alert("yaaay!!")
+     };
+
+
   return (
     <div className="portfolio" id='Portfolio'>
         {/* Heading */}
@@ -119,8 +128,6 @@ const Portfolio = () => {
         <span>Here are a few projects I've worked on recently.</span>
         {/* Slider */}
         <Swiper
-       
-
         spaceBetween={60}
         slidesPerView={4}
         grabCursor={true}
@@ -151,12 +158,12 @@ const Portfolio = () => {
                 return(
                      <SwiperSlide key={index}>
                         <a href={project.link}><img src={project.img} alt="" /></a>
-                        <h3>{project.name}</h3>
+                        <h3 onClick={submitHandeler} >{project.name}</h3>
                         {/* <button className="c-button">LEARN MORE</button> */}
 
-                        <p className='p-description'>{project.description}</p>
-                        
-                    </SwiperSlide>
+                        <p className='p-description  '>{project.description}</p>
+ 
+                     </SwiperSlide>
                 )
             })}
 
