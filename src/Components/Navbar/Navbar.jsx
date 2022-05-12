@@ -1,18 +1,24 @@
-import React from 'react'
+import {useRef} from 'react'
 import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
 import {Link} from 'react-scroll';
-import {AiOutlineMenu}  from 'react-icons/ai';
+import {FaBars, FaTimes}  from 'react-icons/fa';
 
 
 function Navbar() {
+
+    const navRef = useRef();
+    const showNavbar = () => {
+        navRef.current.classList.toggle('responsive_nav');
+    }
+
   return (
+      
      <div className="n-wrapper">
          <div className="n-left">
-            <div className="n-name">Zakaria</div>
-            <Toggle/>
+            <div className="n-name">ZAKARIA</div>
          </div>
-         <div className="n-right">
+         <div ref={navRef} className="n-right">
              <div className="n-list">
                  <ul>
                     <Link spy={true} to='Navbar' smooth={true} activeClass='activeClass'>
@@ -31,12 +37,16 @@ function Navbar() {
              <Link spy={true} to='Contact' smooth={true} >
              <button className="button n-button">Contact</button>
              </Link>
-             {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><AiOutlineMenu/></span>
-                    </button> */}
+                <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+                    <FaTimes/>
+                </button>
+                <Toggle/>
 
+              
          </div>
-         
+                <button className='nav-btn' onClick={showNavbar}>
+                    <FaBars/>
+                </button>
      </div>
   )
 }

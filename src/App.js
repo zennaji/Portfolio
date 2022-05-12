@@ -23,6 +23,7 @@ function App() {
       <Services/>
       <Portfolio/>
       {/* <Testimonials/> */}
+      {/* <div>More info still in design progress! 😊</div> */}
       <Contact/>
       <Footer/>
     </div>

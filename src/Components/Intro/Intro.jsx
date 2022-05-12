@@ -37,7 +37,7 @@ const Intro = () => {
                     out the best in me and show it to the rest.
                 </span>
             </div>
-            <a href="mailto:zakaria.ennaji@outlook.com"><button className="button i-button"> Hire me </button></a>
+            {/* <a href="mailto:zakaria.ennaji@outlook.com"><button className="button i-button"> Hire me </button></a> */}
             <div className="i-icons">
                 <a href="https://github.com/zennaji"> <img src={Github} alt="" /></a>
                 <a href="https://www.instagram.com/zakaria_ennaji_/"> <img src={Instagram} alt="" /></a>

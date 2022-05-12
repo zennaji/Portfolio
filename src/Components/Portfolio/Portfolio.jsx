@@ -48,7 +48,7 @@ const Portfolio = () => {
         name: "HealthOne",
         img: HealthOne,
         description: "I used HTML, CSS, JS and Bootstrap to develop the frontend of this website, it's completely responsive, in the backend I used PHP MVC design pattern and MySQL, it's a fitness website you can see all the devices we have. It also allows you to create an account and choose a membership, post a review, etc.",
-        link: "https://github.com/"
+        link: "https://github.com/zennaji/healthone_project.git"
 
         },
         {
@@ -56,7 +56,7 @@ const Portfolio = () => {
         name: "Apple-Mini-Store-",
         img: AppleMiniStore,
         description: "This is a nice landing page of a mini Apple online store",
-        link: "https://github.com/"
+        link: "https://zennaji.github.io/Apple/"
 
         },
         {
@@ -80,7 +80,7 @@ const Portfolio = () => {
         name: "Steen-Papier-Schaar",
         img: SpS,
         description: "I built this game with HTML CSS and vanilla JS, This is a digital version of Rock-Paper-Scissors",
-        link: "https://github.com/"
+        link: "https://github.com/zennaji/spsGame.git"
 
         },
         {
@@ -88,7 +88,7 @@ const Portfolio = () => {
         name: "GiveAway Website",	
         img: GiveAway,
         description: "To build the client side of this project I used HTML, SCSS, Bootstrap and JavaScript,for the server side I used PHP and MySQL,it is a website that generates a random winner from the database after registering",
-        link: "https://github.com/"
+        link: "https://github.com/zennaji/win.git"
 
         },
         {
