@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bbd1b2e1.css",
-    "main.js": "/Portfolio/static/js/main.dab8dbfd.js",
+    "main.css": "/Portfolio/static/css/main.4bc61e91.css",
+    "main.js": "/Portfolio/static/js/main.d55ad2c1.js",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.46b62afcaa4ba4525dcf.pdf",
     "static/media/boy1.png": "/Portfolio/static/media/boy1.311e8a687b56a1043aa3.png",
     "static/media/Adidas-Mini-Store.jpg": "/Portfolio/static/media/Adidas-Mini-Store.94a26c7416292cf38d12.jpg",
@@ -20,11 +20,11 @@
     "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.bbd1b2e1.css.map": "/Portfolio/static/css/main.bbd1b2e1.css.map",
-    "main.dab8dbfd.js.map": "/Portfolio/static/js/main.dab8dbfd.js.map"
+    "main.4bc61e91.css.map": "/Portfolio/static/css/main.4bc61e91.css.map",
+    "main.d55ad2c1.js.map": "/Portfolio/static/js/main.d55ad2c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbd1b2e1.css",
-    "static/js/main.dab8dbfd.js"
+    "static/css/main.4bc61e91.css",
+    "static/js/main.d55ad2c1.js"
   ]
 }
