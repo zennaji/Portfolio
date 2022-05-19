@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4bc61e91.css",
-    "main.js": "/static/js/main.157a81b6.js",
+    "main.css": "/static/css/main.be6c9a4b.css",
+    "main.js": "/static/js/main.b1f7b459.js",
     "static/media/Resume.pdf": "/static/media/Resume.46b62afcaa4ba4525dcf.pdf",
     "static/media/boy1.png": "/static/media/boy1.311e8a687b56a1043aa3.png",
     "static/media/Adidas-Mini-Store.jpg": "/static/media/Adidas-Mini-Store.94a26c7416292cf38d12.jpg",
@@ -20,11 +20,11 @@
     "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/index.html",
-    "main.4bc61e91.css.map": "/static/css/main.4bc61e91.css.map",
-    "main.157a81b6.js.map": "/static/js/main.157a81b6.js.map"
+    "main.be6c9a4b.css.map": "/static/css/main.be6c9a4b.css.map",
+    "main.b1f7b459.js.map": "/static/js/main.b1f7b459.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc61e91.css",
-    "static/js/main.157a81b6.js"
+    "static/css/main.be6c9a4b.css",
+    "static/js/main.b1f7b459.js"
   ]
 }
