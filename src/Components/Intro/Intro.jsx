@@ -29,7 +29,7 @@ const Intro = () => {
         <div className="i-left">
             <div className="i-name">
                 <span style={{color: darkMode ? "#fff" : "",}}>Hi! I am </span>
-                <span>Zakaria Ennaji </span>
+                <span>Zakaria Ennaji </span> 
                 <span>
                     Software developer with high passion for web development, producting the Quality work. 
                     enthusiastic and work decisively <br />
