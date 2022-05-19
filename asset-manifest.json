@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4bc61e91.css",
-    "main.js": "/Portfolio/static/js/main.d55ad2c1.js",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.46b62afcaa4ba4525dcf.pdf",
-    "static/media/boy1.png": "/Portfolio/static/media/boy1.311e8a687b56a1043aa3.png",
-    "static/media/Adidas-Mini-Store.jpg": "/Portfolio/static/media/Adidas-Mini-Store.94a26c7416292cf38d12.jpg",
-    "static/media/HealthOne.jpg": "/Portfolio/static/media/HealthOne.717081104a58997c1e4b.jpg",
-    "static/media/Delicious.jpg": "/Portfolio/static/media/Delicious.f4700b573d3243c0f4c2.jpg",
-    "static/media/glassesimoji.png": "/Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/CardGame.jpg": "/Portfolio/static/media/CardGame.ab96d96ef17cb98d0712.jpg",
-    "static/media/Apple-Mini-Store.jpg": "/Portfolio/static/media/Apple-Mini-Store.6c7fa94ddbfd7e8a9b2d.jpg",
-    "static/media/GiveAway.jpg": "/Portfolio/static/media/GiveAway.af349bfed5165cf64fbc.jpg",
-    "static/media/TicTacToe.jpg": "/Portfolio/static/media/TicTacToe.8a221796f29c7c95ea76.jpg",
-    "static/media/SPS.jpg": "/Portfolio/static/media/SPS.38d125c0e5a4eb9ad11c.jpg",
-    "static/media/thumbup.png": "/Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/Portfolio/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/wave.png": "/Portfolio/static/media/wave.8f39cce770b81f3c3f80.png",
-    "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
-    "index.html": "/Portfolio/index.html",
-    "main.4bc61e91.css.map": "/Portfolio/static/css/main.4bc61e91.css.map",
-    "main.d55ad2c1.js.map": "/Portfolio/static/js/main.d55ad2c1.js.map"
+    "main.css": "/static/css/main.4bc61e91.css",
+    "main.js": "/static/js/main.157a81b6.js",
+    "static/media/Resume.pdf": "/static/media/Resume.46b62afcaa4ba4525dcf.pdf",
+    "static/media/boy1.png": "/static/media/boy1.311e8a687b56a1043aa3.png",
+    "static/media/Adidas-Mini-Store.jpg": "/static/media/Adidas-Mini-Store.94a26c7416292cf38d12.jpg",
+    "static/media/HealthOne.jpg": "/static/media/HealthOne.717081104a58997c1e4b.jpg",
+    "static/media/Delicious.jpg": "/static/media/Delicious.f4700b573d3243c0f4c2.jpg",
+    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/CardGame.jpg": "/static/media/CardGame.ab96d96ef17cb98d0712.jpg",
+    "static/media/Apple-Mini-Store.jpg": "/static/media/Apple-Mini-Store.6c7fa94ddbfd7e8a9b2d.jpg",
+    "static/media/GiveAway.jpg": "/static/media/GiveAway.af349bfed5165cf64fbc.jpg",
+    "static/media/TicTacToe.jpg": "/static/media/TicTacToe.8a221796f29c7c95ea76.jpg",
+    "static/media/SPS.jpg": "/static/media/SPS.38d125c0e5a4eb9ad11c.jpg",
+    "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/static/media/wave.8f39cce770b81f3c3f80.png",
+    "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/index.html",
+    "main.4bc61e91.css.map": "/static/css/main.4bc61e91.css.map",
+    "main.157a81b6.js.map": "/static/js/main.157a81b6.js.map"
   },
   "entrypoints": [
     "static/css/main.4bc61e91.css",
-    "static/js/main.d55ad2c1.js"
+    "static/js/main.157a81b6.js"
   ]
 }
