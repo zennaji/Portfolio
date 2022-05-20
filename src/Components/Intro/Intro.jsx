@@ -4,6 +4,9 @@ import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
 
+
+import {SiGithub, SiInstagram, SiLinkedin} from 'react-icons/si';
+
 import E from '../../img/E.png';
 import Z from '../../img/Z.png';
 import boy from '../../img/boy1.png';
@@ -39,9 +42,9 @@ const Intro = () => {
             </div>
             {/* <a href="mailto:zakaria.ennaji@outlook.com"><button className="button i-button"> Hire me </button></a> */}
             <div className="i-icons">
-                <a href="https://github.com/zennaji"> <img src={Github} alt="" /></a>
-                <a href="https://www.instagram.com/zakaria_ennaji_/"> <img src={Instagram} alt="" /></a>
-                <a href="https://www.linkedin.com/in/zakariaennaji/"> <img src={LinkedIn} alt="" /></a>
+                <a href="https://github.com/zennaji"> <SiGithub/></a>
+                <a href="https://www.instagram.com/zakaria_ennaji_/"> <SiInstagram/></a>
+                <a href="https://www.linkedin.com/in/zakariaennaji/"> <SiLinkedin/></a>
             </div>
         </div>
         <div className="i-right">

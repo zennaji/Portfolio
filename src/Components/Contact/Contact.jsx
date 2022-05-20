@@ -4,6 +4,8 @@ import emailjs from '@emailjs/browser';
 
 import {themeContext} from "./../../Context";
 import {useContext} from "react";
+import {SiGithub, SiInstagram, SiLinkedin, SiFacebook, SiTwitter} from 'react-icons/si';
+
 
 const Contact = () => {
     // dark mode
@@ -31,7 +33,17 @@ const Contact = () => {
         <div className="c-left">
             <div className="c-text">
                 <span>GET IN TOUCH</span>
-                <span>Contact Me</span>
+                <span>I'd love to chat about any of my projects,<br /> working together, learning opportunities <br /> or just a general natter about all things code!. <br />
+                You can reach me via any of the following:
+                </span>
+                <span className='contact_icons'>
+                    <a href="https://github.com/zennaji"><SiGithub/></a>
+                    <a href="https://www.instagram.com/zakaria_ennaji_/"><SiInstagram/></a>
+                    <a href="https://www.linkedin.com/in/zakariaennaji/"><SiLinkedin/></a>
+                    <a href="https://www.facebook.com/zakaria.ennaji2"><SiFacebook/></a>
+                    <a href="https://twitter.com/Zakaria_ennaji"><SiTwitter/></a>
+                  
+                </span>
                 <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
             </div>
         </div>

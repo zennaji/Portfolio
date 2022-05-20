@@ -3,6 +3,7 @@ import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
 import {Link} from 'react-scroll';
 import {FaBars, FaTimes}  from 'react-icons/fa';
+import mylogo from '../../img/mylogo.png';
 
 
 function Navbar() {
@@ -16,7 +17,7 @@ function Navbar() {
       
      <div className="n-wrapper">
          <div className="n-left">
-            <div className="n-name">ZAKARIA</div>
+            <div className="n-name"><img src={mylogo} alt="" /></div>
          </div>
          <div ref={navRef} className="n-right">
              <div className="n-list">

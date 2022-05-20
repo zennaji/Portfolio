@@ -21,11 +21,21 @@
     /* margin-bottom: 1rem; */
 }
 .c-text> :nth-child(2){
-    font-size: 20px;
+    font-size: 16px;
     color: var(--gray);
-    font-weight: bold;
+    margin-top: 15px;
     margin-bottom: 1rem;
  
+}
+.contact_icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  
+}
+.contact_icons a{
+    color: var(--secendColor);
 }
 
 

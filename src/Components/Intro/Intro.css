@@ -39,17 +39,21 @@
 }
 
 .i-icons{
-    margin-top: 3rem;
     display: flex;
-    gap: 0rem;
+    /* background-color: aqua; */
+    gap: 4px;
+    
+  }
+  .i-icons a>* {
+    font-size: 30px;
+    color:var(--mainColor);
  }
 
-.i-icons >*{
-    transform: scale(0.5);
-}
+
+ 
 .i-icons >*:hover{
   cursor: pointer;
-  transform: scale(0.6);
+  transform: scale(1.1);
   
 }
 
@@ -130,15 +134,11 @@
     
     
     .i-icons{
-        margin-top: 0.2rem;
-        transform: scale(0.9);
-        display: flex;
-        gap: 0rem;
+         transform: scale(0.9);
+         gap: 0.5rem;
     }
     
-    .i-icons >*{
-        transform: scale(0.5);
-    }
+     
 
 
 
